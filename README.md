@@ -13,8 +13,8 @@ An automated 5G deployment tool written in Matlab.
 
 ### Setting it up 🔧
 
- - Unzip both Urban 5GRX and Open Street Map building parser into the same directory
- - Unzip data_opencellid.zip
+ - Unzip both Urban 5GRX and Open Street Map building parser into the same directory.
+ - Unzip data_opencellid.zip.
  - Install Pyhton requirements:
 
 ```
