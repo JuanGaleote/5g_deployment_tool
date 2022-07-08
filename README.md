@@ -1,4 +1,4 @@
-# Urban 5GRX with mobility analysis
+# Urban 5GRX for general purpose
 An automated 5G deployment tool written in Matlab
 
 ## Starting 🚀
@@ -6,7 +6,7 @@ An automated 5G deployment tool written in Matlab
 
 ### Requirements 📋
 
- - Although this  tool is written in Matlab, it needs another Python application to run. Its name is Open Street Map Building Parser and you can find it here: https://github.com/FranciscoQuero/open_street_maps_buildings_parser .
+ - Although this  tool is written in Matlab, it needs another Python application to run. Its name is Open Street Map Building Parser and you can find it here: https://github.com/FranciscoQuero/open_street_maps_buildings_parser. Also, it is recommendable install SUMO Based Route Generator for user routing (https://github.com/JuanGaleote/sumo_based_route_generator).
 
  - Matlab R2020a or higher is required to run this app.
  - Python 3 is required to run the buildings parser.
@@ -15,6 +15,7 @@ An automated 5G deployment tool written in Matlab
 
  - Unzip both Urban 5GRX and Open Street Map building parser into the same directory
  - Unzip data_opencellid.zip
+ - Install SUMO Based Route Generator
  - Install Pyhton requirements:
 
 ```
@@ -52,6 +53,7 @@ Please, feel free to open any issue, Pull Request or to just fork this project.
 
 * **Francisco J. Quero** - [FranciscoQuero](https://github.com/FranciscoQuero)
 * **Daniel Martos Pancorbo** - [DanielMartos97](https://github.com/DanielMartos97)
+* **Juan Elías Galeote Cazorla** - [JuanGaleote](https://github.com/JuanGaleote)
 
 ## License 📄
 
