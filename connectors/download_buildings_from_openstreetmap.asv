@@ -1,0 +1,15 @@
+function [] = download_buildings_from_openstreetmap(bbox_map)
+    map_uri = 'https://api.openstreetmap.org/api/0.6/map';
+    options = weboptions('ContentType', 'xml', 'Timeout', 10);
+    try
+        map_file = websave('map.osm', map_uri, 'bbox', bbox_map, options);
+    catch
+%         pause(60);
+%         map_file = websave('map.osm', map_uri, 'bbox', bbox_map, options);
+        coordinates = split(bbox_map,',');
+        map_uri = ['http://overpass-api.de/api/interpreter?data=[bbox:',char(coordinates(2)),',',char(coordinates(1)),',',char(coordinates(4)),',',char(coordinates(3)), ...
+            '];(node(',char(coordinates(2)),',',char(coordinates(1)),',',char(coordinates(4)),',',char(coordinates(3)),');%3C;);out%20meta;'];
+        map_file = websave('map.osm',map_uri,options);
+    end
+end
+
