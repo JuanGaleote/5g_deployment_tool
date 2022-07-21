@@ -1,0 +1,324 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJQ9w9rfj8cQ0RnN35yqPJ_XE",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ2zh7gP38cQ0Rz_gOWxQUtcU",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 37.20118160000001,
+               "lng" : -3.612718999999999
+            },
+            "southwest" : {
+               "lat" : 37.19253339999999,
+               "lng" : -3.6234813
+            }
+         },
+         "copyrights" : "Map data ©2021 Inst. Geogr. Nacional",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "2.1 km",
+                  "value" : 2115
+               },
+               "duration" : {
+                  "text" : "7 mins",
+                  "value" : 398
+               },
+               "end_address" : "Calle Minerva, 4, 18014 Granada, Spain",
+               "end_location" : {
+                  "lat" : 37.1989987,
+                  "lng" : -3.6139585
+               },
+               "start_address" : "Calle Periodista Francisco Guerrero Vílchez, 10, 18014 Granada, Spain",
+               "start_location" : {
+                  "lat" : 37.1937958,
+                  "lng" : -3.6212101
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "67 m",
+                        "value" : 67
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 11
+                     },
+                     "end_location" : {
+                        "lat" : 37.1932597,
+                        "lng" : -3.6208559
+                     },
+                     "html_instructions" : "Head \u003cb\u003esoutheast\u003c/b\u003e toward \u003cb\u003eCalle Periodista Matías Méndez Vel\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eRestricted usage road\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "gl_bFpgbUb@WfAm@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.1937958,
+                        "lng" : -3.6212101
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "16 m",
+                        "value" : 16
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : {
+                        "lat" : 37.193195,
+                        "lng" : -3.6210164
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCalle Periodista Matías Méndez Vel\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "{h_bFjebUL^"
+                     },
+                     "start_location" : {
+                        "lat" : 37.1932597,
+                        "lng" : -3.6208559
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "50 m",
+                        "value" : 50
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 14
+                     },
+                     "end_location" : {
+                        "lat" : 37.192784,
+                        "lng" : -3.6207874
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eCalle Periodista Miguel Montalvo Jiménez\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "mh_bFjfbUpAm@"
+                     },
+                     "start_location" : {
+                        "lat" : 37.193195,
+                        "lng" : -3.6210164
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "60 m",
+                        "value" : 60
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : {
+                        "lat" : 37.1925656,
+                        "lng" : -3.621404
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCalle Periodista Miguel Montalvo Jiménez\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "{e_bF|dbUFR`@dB"
+                     },
+                     "start_location" : {
+                        "lat" : 37.192784,
+                        "lng" : -3.6207874
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 193
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : {
+                        "lat" : 37.1932007,
+                        "lng" : -3.6233938
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eCalle Periodista Ricardo López Jofre\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "qd_bFvhbUBH?@@D?B@DCRADi@jBY|@{@lD"
+                     },
+                     "start_location" : {
+                        "lat" : 37.1925656,
+                        "lng" : -3.621404
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 317
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 62
+                     },
+                     "end_location" : {
+                        "lat" : 37.19572120000001,
+                        "lng" : -3.6219864
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCalle Periodista José María Carulla\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "oh_bFdubUCBMLo@_@s@c@QGQ@]QgBcAMGaD_BC?COSKKE"
+                     },
+                     "start_location" : {
+                        "lat" : 37.1932007,
+                        "lng" : -3.6233938
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 km",
+                        "value" : 579
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 69
+                     },
+                     "end_location" : {
+                        "lat" : 37.1991365,
+                        "lng" : -3.6178661
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e4th\u003c/b\u003e exit onto \u003cb\u003eAv. Compositor Luis de Narváez\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "gx_bFllbUBU?KAI?E?EAGCO?AM[OUEE[[QQs@g@OIMCKAM@I@KBGDGDC@IHKNOOQIq@cAeBaDcB{CS]eByCCMMU"
+                     },
+                     "start_location" : {
+                        "lat" : 37.19572120000001,
+                        "lng" : -3.6219864
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 405
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 65
+                     },
+                     "end_location" : {
+                        "lat" : 37.2011837,
+                        "lng" : -3.6146175
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eCalle Ovidio\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "sm`bFtraUPOBC?A@C?A?A@K@A?C?E?G?GACAEAEMQi@_Ai@_AMUEEGCI?K?I@A?EBEBuA_Cq@kAYg@sA_CAECGACCE"
+                     },
+                     "start_location" : {
+                        "lat" : 37.1991365,
+                        "lng" : -3.6178661
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 261
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 66
+                     },
+                     "end_location" : {
+                        "lat" : 37.1994219,
+                        "lng" : -3.612718999999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eAv. de Juan Pablo II\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "kz`bFj~`U?A?C?A?A?C?A?A?AlAmAd@g@^_@`AcAhCmC"
+                     },
+                     "start_location" : {
+                        "lat" : 37.2011837,
+                        "lng" : -3.6146175
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 117
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 30
+                     },
+                     "end_location" : {
+                        "lat" : 37.1986544,
+                        "lng" : -3.6136024
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCalle Sol y Sombra\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ko`bFnr`ULHHBDB@@B@T\\PVv@fATZ"
+                     },
+                     "start_location" : {
+                        "lat" : 37.1994219,
+                        "lng" : -3.612718999999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "50 m",
+                        "value" : 50
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 20
+                     },
+                     "end_location" : {
+                        "lat" : 37.1989987,
+                        "lng" : -3.6139585
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eCalle Minerva\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "qj`bF~w`UIJa@`@YX"
+                     },
+                     "start_location" : {
+                        "lat" : 37.1986544,
+                        "lng" : -3.6136024
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "gl_bFpgbUjBeAL^pAm@h@xBBJBNEXcAhD_ApDMLo@_@eAk@Q@]QuBkAeD_BCOSKKEBUAUEc@M]U[m@m@cAq@YEWB_@PUXOOQIq@cAeBaDwByDeByCCMMUPOBE@EBSAYCKw@qAw@uAMIU?K@KFgCkEmBgDEMEO?I?CrBuB`BcBhCmCLHNFDBtBxCeAfA"
+         },
+         "summary" : "Av. Compositor Luis de Narváez",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
