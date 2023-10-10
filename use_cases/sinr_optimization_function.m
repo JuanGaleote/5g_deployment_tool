@@ -35,11 +35,9 @@ if freq_flag
 end
 
 if angle_flag
-	Nact = Nact + 1;
-    if cell_angle_opt_flag
-		cell_angles = x(Nact:end); aux = num2cell(cell_angles);
-		uma_index = find(contains(string({transmitters.Name}),'Tx'));
-		[transmitters(uma_index).AntennaAngle] = deal(aux{:});
+	cell_angles = x(Nact:end); aux = num2cell(cell_angles);
+	uma_index = find(contains(string({transmitters.Name}),'Tx'));
+	[transmitters(uma_index).AntennaAngle] = deal(aux{:});
     end
 end
 
