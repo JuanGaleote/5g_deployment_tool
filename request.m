@@ -414,7 +414,7 @@ if umi_blind_opt_flag || freq_opt_flag || cell_angle_opt_flag
         Nparam = Nparam + numel(uma_transmitters);
 		
 		uma_index = find(contains(string({tx_analysis.Name}),'Tx')); Numa = length(uma_index);
-		cell_angles = [tx_analysis(uma_index).AntennaAngle]; aux = (cell_angles + 180)/360;
+		cell_angles = [tx_analysis(uma_index).AntennaAngle]; aux = cell_angles/360;
 		x = [x,aux];
 		LB = [LB,zeros(1,Numa)]; UB = [UB,ones(1,Numa)];
     end
@@ -466,9 +466,8 @@ if umi_blind_opt_flag || freq_opt_flag || cell_angle_opt_flag
         aux = num2cell(umi_blind_freq(umi_blind_freq_select));      [tx_analysis(umi_blind_index).TransmitterFrequency] = deal(aux{:});
     end
     
-	Nact = Nact + 1;
     if cell_angle_opt_flag
-		cell_angles = x(Nact:end); aux = num2cell(cell_angles);
+		cell_angles = 360*x(Nact:end); aux = num2cell(cell_angles);
 		uma_index = find(contains(string({tx_analysis.Name}),'Tx'));
 		[tx_analysis(uma_index).AntennaAngle] = deal(aux{:});
     end
